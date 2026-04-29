@@ -18,6 +18,8 @@ project:
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
     - "project.v"
+    - "top_henon.v"
+    - "shift.v"
     - "henon_map.v"
     - "mult_a_const.v"
     - "mult_b_const.v"
