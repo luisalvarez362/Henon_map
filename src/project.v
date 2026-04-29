@@ -23,5 +23,10 @@ module tt_um_example (
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
+wire rst;
+    wire valid;
+    assign rst=!rst_n;
+
+    henon_map henon #(.WIDTH(8),.FRAC(4))(.clk(clk),.rst(rst),.en(ui_in[0]),.x_out(uo_out),.y_out(uio_out),.valid(valid));
 
 endmodule
