@@ -36,7 +36,7 @@ assign uio_out = 0;
                  .ena_ser_y(ui_in[2]),
                  .Q_ser_x(uo_out[0]),
                  .eos_x(uo_out[1]),
-                 .Qser_y(uo_out[2]),
+                 .Q_ser_y(uo_out[2]),
                  .eos_y(uo_out[3]),
                  .done_henon(uo_out[4])
                 );
