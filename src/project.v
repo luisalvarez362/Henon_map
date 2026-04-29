@@ -24,8 +24,8 @@ assign uio_out = 0;
 
   // List all unused inputs to prevent warnings
     wire _unused = &{ui_in[3],ui_in[4],ui_in[5],ui_in[6],ui_in[7], 1'b0};
-wire rst;
-    wire valid;
+//wire rst;
+   // wire valid;
    // assign rst=!rst_n;
 
     //henon_map #(.WIDTH(8),.FRAC(4)) henon (.clk(clk),.rst(rst),.en(ui_in[0]),.x_out(uo_out),.y_out(uio_out),.valid(valid));
