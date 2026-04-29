@@ -1,4 +1,4 @@
-module top (
+module top_henon (
     input clk,
     input rst_n,
     input ena_henon,
